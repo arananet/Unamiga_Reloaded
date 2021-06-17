@@ -9,7 +9,7 @@ Some cores requires another SD card because their special filesystem, for exampl
 
 By default all the Unamiga Reloaded are shipped with two SD cards completely free without extra charge.
 
-### SD cards distribution: 
+### SD cards distribution
 
 ### Amstrad core:
 You can use the MINIMIG core SD, just create a new folder on the root called AMSTRAD and put all the roms.
