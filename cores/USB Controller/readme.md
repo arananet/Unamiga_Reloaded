@@ -28,13 +28,19 @@ Download the last version of the firmware from this repository (check the last v
 | stm32f105.bin  | 0.1           |
 
 1-Open the stm32cubeprog and click from the top  Open File tab, then choose the bin file that you already downloaded.
+
 2-Connect the STM32 STLINK programmer to the usb port of your computer.
+
 3-Connect the programming pins following the next image (you will need to hold the four pins to complete the next step).
 
 <img src="https://github.com/arananet/Unamiga_Reloaded/blob/main/images/programming.png?raw=true" width="400"/>
 
 4-On the stm32cubeprog hit the Green CONNECT button from the right.
+
 5-If the stm32 is detected, you will see that the main log is updated. If not you will receive an error.
+
 6-If connection has been stablished with the STM32 controller the next step is to hit the Download button.
+
 7-Once the programming is complete you can unplug the programming pins, and try the new firmware by power up the Unamiga Reloaded.
+
 8-You could revert to the original firmware by doing the step 1-7 again.
