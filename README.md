@@ -1,5 +1,5 @@
 # Unamiga_Reloaded
-This main repo contains the lastest cores available and usb controller firmware for the Unamiga Reloaded.
+This main repo contains the lastest binary cores available and usb controller firmware for the Unamiga Reloaded.
 
 The USB controller firmware has his own custom readme for upgrade instructions.
 
@@ -11,6 +11,9 @@ By default all the Unamiga Reloaded are shipped with two SD cards completely fre
 
 ### SD cards distribution: 
 
+### Atari800 core:
+You can use the MINIMIG core SD, just create a new folder on the root called ATARI and put all the roms.
+
 ### MINIMIG:
 Requires custom SD card filesystem for the Minimig core. The SD card included as a gift already has the minimig required filesystem.
 
@@ -19,6 +22,12 @@ You can use the MINIMIG core SD, just create a new folder on the root called C64
 
 ### NES core:
 You can use the MINIMIG core SD, just create a new folder on the root called NES and put all the roms.
+
+### SNES core:
+You can use the MINIMIG core SD, just create a new folder on the root called SNES and put all the roms.
+
+### VideoPac core:
+You can use the MINIMIG core SD, just create a new folder on the root called VIDEOPAC and put all the roms.
 
 ### MSX core:
 Requires a custom SD card because his partitions configurations. The SD image required for the core can be downloaded from here: https://www.zxuno.com/forum/viewtopic.php?t=3976.
