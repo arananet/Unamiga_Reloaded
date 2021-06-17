@@ -41,13 +41,13 @@ Requires a custom SD card because his partitions configurations. The SD image re
 ### KypZX48:
 You can use the MINIMIG core SD, just create a new folder on the root called ZX48 and put all the roms.
 
-# Usb controller programming
+### Usb controller programming
 
 On the cores/USB controller there are instructions on how to flash/upgrade the STM32 USB controller.
 
 https://github.com/arananet/Unamiga_Reloaded/tree/main/cores/USB%20Controller
 
-# Special thanks and Kudos
+### Special thanks and Kudos
 
 Thanks to @benitoss, Neuro (aka neurorulez), Rampa, Kypp among others for porting the cores to the Unamiga Reloaded.
 
