@@ -1,4 +1,4 @@
-This folder contains the binary file required for the STM32 that manage the USB devices. The current firmware is the first release but there might be futher versions that will include support for more usb devices.
+This folder contains the binary file required for the STM32 that manage the USB devices. The current firmware is the first release but there might be further versions that will include support for more usb devices.
 
 The current firmware controls USB keyboards, USB mouses, and SNES usb joypads (clones). 
 
