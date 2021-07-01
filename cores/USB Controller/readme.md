@@ -21,7 +21,7 @@ In order to upgrade the STM32 USB stack you will requiere a STLINK programmer li
 
 Also you will require the STM32Cubeprogrammer https://www.st.com/en/development-tools/stm32cubeprog.html or another compatible with STM32F105 series.
 
-### Steps to upgrade the firmware
+### Firmware versions
 
 Download the last version of the firmware from the files directory on this repository (check the last version on the next table).
 
@@ -29,6 +29,14 @@ Download the last version of the firmware from the files directory on this repos
 | -------------------------- | ------------------------- |
 | unamiga_stm32f105.hex      | 0.2                       |
 | unamiga_stm32f105_ori.hex  | 0.1 Init version          |
+
+### Changes
+0.2 Improved USB hardware detection. Added compatibility for PS2 (Dual, KB and Mouse) to USB converters. Added support for chinese mech keyboards.
+0.1 Init version - Basic USB KB, Mouse and SNES gamepad detection.
+
+Remember, each time you plug an USB device into the Unamiga reloaded or UnamigaITX you must do it with the Unamiga turned off. The firmware because his nature does not support hotplug (yet).
+
+### Steps to upgrade the firmware
 
 1-Open the stm32cubeprog and click from the top  Open File tab, then choose the bin file that you already downloaded.
 
