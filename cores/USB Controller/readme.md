@@ -32,6 +32,7 @@ Download the last version of the firmware from the files directory on this repos
 
 ### Changes
 0.2 Improved USB hardware detection. Added compatibility for PS2 (Dual, KB and Mouse) to USB converters. Added support for chinese mech keyboards.
+
 0.1 Init version - Basic USB KB, Mouse and SNES gamepad detection.
 
 Remember, each time you plug an USB device into the Unamiga reloaded or UnamigaITX you must do it with the Unamiga turned off. The firmware because his nature does not support hotplug (yet).
