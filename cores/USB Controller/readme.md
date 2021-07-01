@@ -1,3 +1,5 @@
+### Usb controller firmware instructions
+
 This folder contains the binary file required for the STM32 that manage the USB devices. The current firmware is the first release but there might be further versions that will include support for more usb devices.
 
 The current firmware controls USB keyboards, USB mouses, and SNES usb joypads (clones). 
@@ -5,7 +7,7 @@ The current firmware controls USB keyboards, USB mouses, and SNES usb joypads (c
 On the test bench we use the Logitech K120 kit (with usb mouse), also the LogiLink ID0063 mouse and the SNES controller available on aliexpress. The SNES controller has also mapped some keyboards keys in order
 to use them on different cores. The default mapping of buttons is based on the minimig one, by this I refer to the two buttons of the minimig core.
 
-Here are the links.
+### Here are the links.
 
 Logitech K120 https://www.amazon.es/Logitech-MK120-teclado-QWERTY-Espa%C3%B1ol/dp/B00564GWEI/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=logitech+k120&qid=1623917142&sr=8-3
 
@@ -21,7 +23,7 @@ Also you will require the STM32Cubeprogrammer https://www.st.com/en/development-
 
 ### Steps to upgrade the firmware
 
-Download the last version of the firmware from this repository (check the last version on the next table).
+Download the last version of the firmware from the files directory on this repository (check the last version on the next table).
 
 | Name                       | Version                   |
 | -------------------------- | ------------------------- |
