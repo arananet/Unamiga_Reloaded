@@ -23,9 +23,10 @@ Also you will require the STM32Cubeprogrammer https://www.st.com/en/development-
 
 Download the last version of the firmware from this repository (check the last version on the next table).
 
-| Name           | Version       |
-| -------------- | ------------- |
-| stm32f105.bin  | 0.1           |
+| Name                       | Version                   |
+| -------------------------- | ------------------------- |
+| unamiga_stm32f105.hex      | 0.2                       |
+| unamiga_stm32f105_ori.hex  | 0.1 Init version          |
 
 1-Open the stm32cubeprog and click from the top  Open File tab, then choose the bin file that you already downloaded.
 
@@ -44,3 +45,7 @@ Download the last version of the firmware from this repository (check the last v
 7-Once the programming is complete you can unplug the programming pins, and try the new firmware by power up the Unamiga Reloaded.
 
 8-You could revert to the original firmware by doing the step 1-7 again.
+
+### Copyright notice
+
+Firmware completely developed by Miguel Fides and tested by Edu Arana. The use of this firmware is prohibited in another platforms. The only device compatible with this firmware is the Unamiga Reloaded and Unamiga MiniITX.
