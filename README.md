@@ -26,6 +26,18 @@ You can use the MINIMIG core SD, just create a new folder on the root called C64
 ### NES core:
 You can use the MINIMIG core SD, just create a new folder on the root called NES and put all the roms.
 
+### PCW core:
+You can use the MINIMIG core SD, place the dsk file into the root of the SD.
+
+### Svi328 core:
+You can use the MINIMIG core SD, place the rom file into the root of the SD. You can upload programs and games via de embebbed maxduino from the Unamiga.
+
+### Oric core:
+You must place the core into the CoreSD and that's all.
+
+### MSX core:
+Requires a custom SD card because his partitions configurations. The SD image required for the core can be downloaded from here: https://www.zxuno.com/forum/viewtopic.php?t=3976.
+
 ### SNES core:
 You can use the MINIMIG core SD, just create a new folder on the root called SNES and put all the roms.
 
