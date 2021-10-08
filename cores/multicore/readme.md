@@ -1,24 +1,30 @@
-On this folder you will find the BIN file to flash the STM32 that controls the multicore and the JIC core for the FPGA.
+On this folder you will find the BIN file to flash the STM32 that controls the multicore and the JIC multicore for the FPGA.
 
 Follow the next instructions to flash the multicore on the onboard STM32 and the multicore on the FPGA.
 
-### Permanent Firmware vs Multicore support:
+### Required parts
 
-If you don't have the multicore support you can use the JIC files to permatelly burn the new core on the FPGA. In order to do this you will require a USB BLASTER and the QUARTUS 13.1 software.
-
-USB BLASTER example (recommended for both, permatelly and multicore support):
+USB BLASTER programmer (recommended for both, fixed and multicore support):
 
 https://es.aliexpress.com/item/4000428690459.html?spm=a2g0o.productlist.0.0.56eeaa6csAYyPO&algo_pvid=6985defa-48ba-4692-abb4-307d74d6e8df&algo_expid=6985defa-48ba-4692-abb4-307d74d6e8df-11&btsid=0b0a182b16038866260806565e01e2&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 
-### How the Multicore works?
+STLINK programmer
 
-The Unamiga Reloaded and ITX uses a STM32 onboard to provide the multicore support. The Multicore shows a blue menu at the start and the STM32 flash the "temporal" cores into the fpga. Also is in charge of reading the contents of the core microSD slot. Each time you power off the machine and start over, the same blue menu will appear on screen.
+https://es.aliexpress.com/item/1005002543516185.html?spm=a2g0o.productlist.0.0.77d8eb2faFbAfb&algo_pvid=207c1be0-d542-4d51-a298-2e5d1481f97e&aem_p4p_detail=20211008121043127481405555100042292587&algo_exp_id=207c1be0-d542-4d51-a298-2e5d1481f97e-4&pdp_ext_f=%7B%22sku_id%22%3A%2212000021074140345%22%7D
 
 On the ITX version, in order to connect the stm32 on the FPGA you will require a little IDC 2x5 female to female cable link this one:
 
 https://es.aliexpress.com/item/32700048506.html?spm=a2g0o.productlist.0.0.310b601fW3osbp&algo_pvid=af77932d-76d4-4b9a-b921-a23483ff0068&algo_expid=af77932d-76d4-4b9a-b921-a23483ff0068-8&btsid=0bb0623e16038875348986088ed701&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 
-As it was mentioned before you will require an additional SD card to store each core in UA2 format. You just download each core in UA2 format from the CORES folder and drop them on the root of the multicore sd card. The stm32 firmware made by Victor Trucco needs to be burned on the STM32. On the CORES/MULTICORE folder there is a JIC file that's the one we need to flash on the FPGA and a BIN file that is required to burn on the STM32.
+### How the Multicore works?
+
+The Unamiga Reloaded and ITX uses a STM32 onboard to provide the multicore support. The Multicore works as other fpga solutions, by showing a MENU, blue on this case, at the power up. Each time you power off the machine and start over, the same blue menu will appear on screen.
+
+In order to use the multicore support among the required steps detailed here, you will require an additional SD card to store each core in UA2 format. You just download each core in UA2 format from the CORES folder and drop them on the root of the multicore sd card. 
+
+The multicore supports needs two steps, one is flashing the stm32 firmware made by Victor Trucco and flashing the multicore menu on the FPGA. On the CORES/MULTICORE folder there is a JIC file that's the one we need to flash on the FPGA and a BIN file that is required to burn on the STM32.
+
+#### Note: By replacing the initial core, on the ITX for example, you will lost the original core, on this case the minimig and will be replaced by the multicore menu. Is the multicore menu, when you select the core that you want to load, the one in charge of temporary flash the selected core into the FPGA. As we mentioned before, Each time you power off the machine and start over, the same blue menu will appear on screen.
 
 ### Flashing the STM32
 
