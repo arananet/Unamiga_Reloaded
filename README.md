@@ -1,5 +1,5 @@
 # Unamiga Reloaded
-This main repo contains the lastest binary cores available in UA2 format and usb controller firmware for the Unamiga Reloaded.
+This main repo contains the lastest binary cores available in UA2 format and usb controller firmware for the Unamiga Reloaded. These cores are also compatible with the Unamiga ITX.
 
 The USB controller firmware has his own custom readme for upgrade instructions.
 
