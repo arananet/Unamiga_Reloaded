@@ -16,6 +16,12 @@ On the ITX version, in order to connect the stm32 on the FPGA you will require a
 
 https://es.aliexpress.com/item/32700048506.html?spm=a2g0o.productlist.0.0.310b601fW3osbp&algo_pvid=af77932d-76d4-4b9a-b921-a23483ff0068&algo_expid=af77932d-76d4-4b9a-b921-a23483ff0068-8&btsid=0bb0623e16038875348986088ed701&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 
+The female to female IDC cable is required because the onboard STM32 on the Unamiga ITX act as a USB BLASTER. So you need this physical connection to allow the STM32 to temporary flash the cores into the FPGA.
+
+Connect the IDC cable like this image.
+
+<img src="https://github.com/arananet/Unamiga_Reloaded/blob/main/images/multicoreitx.png?raw=true" width="400"/>
+
 ### How the Multicore works?
 
 The Unamiga Reloaded and ITX uses a STM32 onboard to provide the multicore support. The Multicore works as other fpga solutions, by showing a MENU, blue on this case, at the power up. Each time you power off the machine and start over, the same blue menu will appear on screen.
