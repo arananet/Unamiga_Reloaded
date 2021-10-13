@@ -59,6 +59,12 @@ On the cores/USB controller there are instructions on how to flash/upgrade the S
 
 https://github.com/arananet/Unamiga_Reloaded/tree/main/cores/USB%20Controller
 
+### Multicore programming
+
+Instructions for Reloaded and ITX, here:
+
+https://github.com/arananet/Unamiga_Reloaded/tree/main/cores/multicore
+
 ### Special thanks and Kudos
 
 Thanks to @benitoss, Neuro (aka neurorulez), Rampa, Kypp among others for porting the cores to the Unamiga Reloaded.
