@@ -20,7 +20,7 @@ The female to female IDC cable is required because the onboard STM32 on the Unam
 
 Connect the IDC cable like this image.
 
-<img src="https://github.com/arananet/Unamiga_Reloaded/blob/main/images/multicoreitx.png?raw=true" width="400"/>
+<img src="https://github.com/arananet/Unamiga_Reloaded/blob/main/images/multicoreitx.jpg?raw=true" width="400"/>
 
 ### How the Multicore works?
 
