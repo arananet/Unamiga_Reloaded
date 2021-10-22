@@ -62,6 +62,9 @@ Find the required pins on the Reloaded and ITX using the next images.
 
 <img src="https://github.com/arananet/Unamiga_Reloaded/blob/main/images/multicoreitx.png?raw=true" width="400"/>
 
+##### Important note (only for Unamiga ITX version):
+In order to program the stm32 for multicore, you will need to remove the FPGA module from the board and then follow the next procedure.
+
 4-Connect to your computer and open the Cube programmer software.
 
 5-Click on the CONNECT buttom from the right panel. If everything goes OK it will connect and you will see a log update on the main screen. Select the Open File TAB and choose the BIN file downloaded from this github. Then hit the DOWNLOAD button and the STLINK will start programming the core.
