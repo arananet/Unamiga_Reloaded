@@ -14,11 +14,14 @@ By default all the Unamiga Reloaded are shipped with two SD cards completely fre
 ### Amstrad core:
 You can use the MINIMIG core SD, just create a new folder on the root called AMSTRAD and put all the roms.
 
+### Atari ST core:
+Requires custom SD card filesystem for the Atari ST core. Fat32 and roms required. 
+
 ### Atari800 core:
 You can use the MINIMIG core SD, just create a new folder on the root called ATARI and put all the roms.
 
 ### MINIMIG:
-Requires custom SD card filesystem for the Minimig core. The SD card included as a gift already has the minimig required filesystem.
+Requires custom SD card filesystem for the Minimig core. The SD card included on reloaded as a gift already has the minimig required filesystem.
 
 ### C64 core:
 You can use the MINIMIG core SD, just create a new folder on the root called C64 and put all the prg or taps inside.
