@@ -1,3 +1,21 @@
-Contains the minimig RTG core.
+### minimig RTG core
 
-Also contanins the english menu for the core. Place this file on the fpga SD (front side) and replace with the original (spanish menu).
+This folder contains the latest minimig core for Unamiga Reloaded/ITX. This new core has been completely re-build from the base sources of mininig and then adapted (ported) to use the Unamiga Reloaded features (i2s audio, 24 video dac). The sources of the original core shipped with the Unamiga Reloaded get lost, so we had to rebuilt it from the original sources again and in the meantime, issues with the has been fixed.
+
+The base directory is the old core that was shipped with the Unamiga Reloaded.
+
+The minimig_menu is just the english version of the minimig core menu.
+
+### Instructions for the new core
+
+Place the MINIMIG_b6.ua2 file into the cores (back SD) of your Unamiga Reloaded. Place or replace the file 832OSDAD.bin on the fpga SD.
+
+See the wiki for screen mode instructions.
+
+### Special greetings
+
+All the kudos to Ramón Martinez a.k.a Rampa069 who has ported the core from the latest sources of the mininig core( Alistair Robinson implementation) http://retroramblings.net/?page_id=1422. This new release fixes a few issues with the RTG on specific screen modes and also fixes the audio that has issues on a few games that were detected on the original core of the Unamiga Reloaded.
+
+We also like to thank Neuro (Aitor) who ported the original core of minimig included on the Unamiga Reloaded.
+
+
