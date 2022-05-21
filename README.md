@@ -56,6 +56,8 @@ Requires a custom SD card because his partitions configurations. The SD image re
 ### KypZX48:
 You can use the MINIMIG core SD, just create a new folder on the root called ZX48 and put all the roms.
 
+### Find more cores on the cores folder. Updated every month.
+
 ### Usb controller programming
 
 On the cores/USB controller there are instructions on how to flash/upgrade the STM32 USB controller.
